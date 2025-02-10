@@ -174,7 +174,7 @@
 							<target>
 								<echo message="renaming sources file" />
 								<copy file="${project.build.directory}/dependency/httpmime-${core.artifact.version}-sources.jar"
-									  tofile="${project.build.directory}/httpmime-${core.artifact.version}-${core.artifact.release}-sources.jar" />
+									  tofile="${project.build.directory}/httpmime-${project.version}-sources.jar" />
 							</target>
 						</configuration>
 					</execution>
@@ -188,7 +188,7 @@
 							<target>
 								<echo message="renaming javadoc file" />
 								<copy file="${project.build.directory}/dependency/httpmime-${core.artifact.version}-javadoc.jar"
-									  tofile="${project.build.directory}/httpmime-${core.artifact.version}-${core.artifact.release}-javadoc.jar" />
+									  tofile="${project.build.directory}/httpmime-${project.version}-javadoc.jar" />
 							</target>
 						</configuration>
 					</execution>
