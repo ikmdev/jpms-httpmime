@@ -7,13 +7,13 @@
 	<parent>
 		<groupId>dev.ikm.build</groupId>
 		<artifactId>parent</artifactId>
-		<version>1.57.0</version>
+		<version>1.58.0</version>
 	</parent>
 
 	<groupId>dev.ikm.jpms</groupId>
 	<artifactId>httpmime</artifactId>
 	<packaging>jar</packaging>
-	<version>${core.artifact.version}-${core.artifact.release}</version>
+	<version>4.5.14-r4</version>
 	<description>
 		Builds the httpmime.  Requires the httpclient be built first and be excluded
 		from any other poms requiring it.
