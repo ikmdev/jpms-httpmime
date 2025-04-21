@@ -23,7 +23,7 @@ Add the following dependency to your pom.xml:
 
 Add the following dependency to your build.gradle:
 ```groovy
-implementation 'dev.ikm.jpms:httpcomponents.mime.ikm:${latest-jpms-httpmime-version}'
+implementation 'dev.ikm.jpms:httpmime:${latest-jpms-httpmime-version}'
 ```
 
 In your module descriptor (module-info.java), declare the dependency on the jpms-httpmime module:
